@@ -1,0 +1,12 @@
+name: neural_networks
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy
+      - scipy
+      - tensorflow
+      - tqdm
+      - matplotlib
